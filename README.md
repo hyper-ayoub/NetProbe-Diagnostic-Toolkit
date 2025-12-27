@@ -10,6 +10,8 @@
 ## 📖 Overview
 **NetProbe** is a unified command-line interface (CLI) designed to simplify and standardize network troubleshooting on **Linux and WSL** systems.
 
+<img width="898" height="740" alt="image" src="https://github.com/user-attachments/assets/ae6e7237-b132-45d2-bbfc-84b1bb192ae2" />
+
 Instead of manually using multiple legacy tools such as `ping`, `dig`, `traceroute`, and `netstat`, NetProbe runs a **sequential diagnostic suite**, executing tests in a logical order (DNS → Connectivity → Services) to pinpoint exactly where a network connection fails.
 
 NetProbe is designed to work identically on **local machines, remote servers, and WSL environments**.
