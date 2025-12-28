@@ -19,6 +19,8 @@ NetProbe is designed to work identically on **local machines, remote servers, an
 ---
 
 ## 🚩 The Problem
+<img width="1124" height="716" alt="image" src="https://github.com/user-attachments/assets/1f0fc91f-dd42-4bcd-8120-61fa645e4799" />
+
 Network failures are rarely caused by a single issue. A connection problem may be due to:
 
 - **DNS Failure:** The hostname does not resolve
