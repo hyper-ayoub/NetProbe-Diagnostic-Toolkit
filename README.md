@@ -56,6 +56,8 @@ NetProbe answers one critical question:
 ---
 
 ## 🧠 How NetProbe Thinks
+<img width="1355" height="799" alt="image" src="https://github.com/user-attachments/assets/ff2255cd-c79e-4ac9-8e76-a22360736bb9" />
+
 NetProbe follows a **layered diagnostic approach**:
 1. Can the hostname resolve? (DNS)
 2. Can the target be reached? (Network)
