@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+# Determine project base directory (simpler version)
+Base=$(dirname "$0")/..
+Base=$(cd "$Base" && pwd)
+
+# Source core scripts
+source "$Base/core/bootstrap.sh"
+source "$Base/core/logger.sh"
+source "$Base/core/config.sh"
+source "$Base/core/utils.sh"
+
+# Target argument
+Target="$1"
+
+# Check if target is provided
+if [ -z "$Target" ]; then
+    error "Usage: netprobe <domain|ip>"
+    exit 1
+fi
+
+info "NetProbe started for the target: $Target"
+
+# Run environment checks
+check_environment
+
+success "The Environment is ready. NetProbe skeleton operational."
+
